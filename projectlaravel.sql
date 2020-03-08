@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.1
+-- version 5.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 08, 2020 at 11:34 AM
--- Server version: 10.4.8-MariaDB
--- PHP Version: 7.3.11
+-- Generation Time: Mar 08, 2020 at 11:01 AM
+-- Server version: 10.4.11-MariaDB
+-- PHP Version: 7.4.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `project_laravel`
+-- Database: `projectlaravel`
 --
 
 -- --------------------------------------------------------
@@ -72,9 +72,9 @@ INSERT INTO `migrations` (`id`, `migration`, `batch`) VALUES
 (1, '2014_10_12_000000_create_users_table', 1),
 (2, '2014_10_12_100000_create_password_resets_table', 1),
 (3, '2019_08_19_000000_create_failed_jobs_table', 1),
-(4, '2020_03_07_090244_create_students_table', 1),
-(5, '2020_03_07_091102_create_comments_table', 1),
-(6, '2020_03_07_091250_create_roles_table', 1);
+(4, '2020_03_08_073850_create_students_table', 1),
+(5, '2020_03_08_073918_create_roles_table', 1),
+(6, '2020_03_08_073945_create_comments_table', 1);
 
 -- --------------------------------------------------------
 
